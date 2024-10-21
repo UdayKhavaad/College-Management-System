@@ -42,3 +42,4 @@ C:\Users\ASUS\source\repos\Cms\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\ASUS\source\repos\Cms\obj\Debug\Cms.exe.config
 C:\Users\ASUS\source\repos\Cms\obj\Debug\Cms.Report.resources
 C:\Users\ASUS\source\repos\Cms\obj\Debug\Cms.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Cms\obj\Debug\Cms.Student_details.resources

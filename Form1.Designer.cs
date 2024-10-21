@@ -57,15 +57,17 @@ namespace Cms
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.feesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.studentDetailsReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -344,6 +346,9 @@ namespace Cms
             // 
             // reportToolStripMenuItem
             // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.feesReportToolStripMenuItem,
+            this.studentDetailsReportToolStripMenuItem});
             this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -376,6 +381,20 @@ namespace Cms
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
+            // feesReportToolStripMenuItem
+            // 
+            this.feesReportToolStripMenuItem.Name = "feesReportToolStripMenuItem";
+            this.feesReportToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.feesReportToolStripMenuItem.Text = "Fees Report";
+            this.feesReportToolStripMenuItem.Click += new System.EventHandler(this.feesReportToolStripMenuItem_Click);
+            // 
+            // studentDetailsReportToolStripMenuItem
+            // 
+            this.studentDetailsReportToolStripMenuItem.Name = "studentDetailsReportToolStripMenuItem";
+            this.studentDetailsReportToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.studentDetailsReportToolStripMenuItem.Text = "Student Details Report";
+            this.studentDetailsReportToolStripMenuItem.Click += new System.EventHandler(this.studentDetailsReportToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -403,8 +422,8 @@ namespace Cms
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -441,6 +460,8 @@ namespace Cms
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem feesReportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem studentDetailsReportToolStripMenuItem;
     }
 }
 

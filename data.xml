@@ -6,9 +6,18 @@
         <xs:element name="Table">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="fid" type="xs:int" minOccurs="0" />
               <xs:element name="NAID" type="xs:int" minOccurs="0" />
-              <xs:element name="fees" type="xs:int" minOccurs="0" />
+              <xs:element name="fname" type="xs:string" minOccurs="0" />
+              <xs:element name="mname" type="xs:string" minOccurs="0" />
+              <xs:element name="gender" type="xs:string" minOccurs="0" />
+              <xs:element name="dob" type="xs:string" minOccurs="0" />
+              <xs:element name="mobile" type="xs:long" minOccurs="0" />
+              <xs:element name="email" type="xs:string" minOccurs="0" />
+              <xs:element name="semester" type="xs:string" minOccurs="0" />
+              <xs:element name="prog" type="xs:string" minOccurs="0" />
+              <xs:element name="sname" type="xs:string" minOccurs="0" />
+              <xs:element name="duration" type="xs:string" minOccurs="0" />
+              <xs:element name="addres" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

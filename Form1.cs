@@ -161,8 +161,19 @@ namespace Cms
 
         private void reportToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void feesReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             Report re = new Report();
             re.Show();
+        }
+
+        private void studentDetailsReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Student_details sd = new Student_details();
+            sd.Show();
         }
     }
 }
